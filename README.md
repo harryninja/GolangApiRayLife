@@ -93,38 +93,8 @@ The application uses [winston](https://github.com/winstonjs/winston) as the defa
 * Each line in error log file is a stringified JSON. -->
 
 
-### Directory Structure
+
 
 ```
-+-- controllers
-|   +-- personController.go
-+-- db
-|   +-- db.go
-+-- handlers
-|   +-- config.go
-|   +-- logs.go
-|   +-- response.go
-|   +-- verifyJWT.go
-+-- models
-|   +-- models.go
-+-- validators
-|   +-- validators.go
-+-- tests
-|   +-- api_test.go
-+-- routes
-|   +-- routes.go
-+-- uploaded
-+-- vendor
-+-- nginx
-|   +-- dev.conf.d
-|   |   +-- nginx.conf
-+-- .env
-+-- .env.default
-+-- .gitignore
-+-- docker-compose.yml
-+-- Dockerfile
-+-- go.mod
-+-- go.sum
-+-- main.go
-+-- README.md
+
 ```

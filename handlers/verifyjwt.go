@@ -18,7 +18,7 @@ func IsAuthorized(next http.Handler) http.HandlerFunc {
 
 			token, err := jwt.Parse(r.Header["Token"][0], func(token *jwt.Token) (interface{}, error) {
 				if _, ok := token.Method.(*jwt.SigningMethodHMAC); !ok {
-					return nil, fmt.Errorf("There was an error")
+					return nil, fmt.Errorf("there was an error")
 				}
 				return mySigningKey, nil
 			})
